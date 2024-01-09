@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "examples/hello",
+    # "examples/docs-generation",
+    # "examples/env-config"
+]
+resolver = "2"

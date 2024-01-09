@@ -1,0 +1,13 @@
+[package]
+name = "hola"
+version = "0.1.0"
+edition = "2021"
+default-run = "welcome" # указывает какой бинарник запускать по-умолчанию
+
+[[bin]]
+name = "welcome"
+path = "src/bin/hey.rs"
+# бинарник `src/bin/hey.rs` переименован с `hey` в `welcome`
+# если бы этой секции не было, то `src/bin/hey.rs` назывался бы `hey`
+
+[dependencies]
